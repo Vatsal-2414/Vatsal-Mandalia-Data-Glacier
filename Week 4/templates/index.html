@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Linear Regression Flask Deployment</title>
+    </head>
+
+    <body>
+        <div class="login">
+            <h1>Predicting Life Expectancy</h1>
+
+            <form action="{{ url_for('predict')}}"method="post">
+                <input type="text" name="AdultMortality" placeholder="Adult Mortality rate (per 1000 population)" required="required" />
+                <input type="text" name="infantdeaths" placeholder="Infant Deaths per 1000" required="required" />
+                <input type="text" name="Alcohol" placeholder="Per Capita Alcohol Consumption (in l)" required="required" />
+                <input type="text" name="BMI" placeholder="BMI" required="required" />
+                 
+                <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+            </form>
+            
+            <br>
+            <br>
+
+            {{ prediction_text }}
+
+        </div>
+    </body>
+</html>
