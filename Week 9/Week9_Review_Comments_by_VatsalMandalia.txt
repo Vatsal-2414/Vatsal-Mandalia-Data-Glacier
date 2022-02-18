@@ -1,0 +1,5 @@
+Week 9: Data Cleansing and Transformation
+
+Review comments of .ipynb file of Amira Asta:
+
+The organization of the code block is really good. The readability of the  code is good. The individual plots of the features like 'age' and 'campaign' are good. On looking at the Categorical Features section, Amira has also done some Exploratory Data Analysis. This gives a deeper understanding of the data. The objectives of this assignment has been met. 
